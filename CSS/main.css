@@ -1,0 +1,263 @@
+body
+{
+background-color: #000000;
+}
+
+#links
+{
+color: #FFF;
+display:inline-block;
+}
+
+#select-hash, #select-trends
+{
+background-color: #3D3D3D;
+color: #FFF;
+display:inline-block;
+padding-left:5px;
+padding-right:5px;
+padding-top:5px;
+padding-bottom:5px;
+cursor: pointer;
+ font-weight:bold;
+
+/* outer shadows  (note the rgba is red, green, blue, alpha) */
+-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.6); 
+-moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+
+/* rounded corners */
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px; 
+border-radius: 7px;
+
+/* gradients */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3D3D3D), 
+ color-stop(65%, #3D3D3D), color-stop(100%, #7D7D7D)); 
+background: -moz-linear-gradient(top, #3D3D3D 0%, #3D3D3D 55%, #7D7D7D 130%); 
+
+
+}
+
+
+ 
+
+.ahashtag
+{
+overflow-y: auto;
+background-color: #3D3D3D;;
+display: inline-block;
+margin-bottom: 5px;
+padding-left:3px;
+padding-right:3px;
+
+min-width: 172px;
+/* outer shadows  (note the rgba is red, green, blue, alpha) */
+-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.6); 
+-moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+
+/* rounded corners */
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px; 
+border-radius: 7px;
+
+/* gradients */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3D3D3D), 
+ color-stop(65%, #3D3D3D), color-stop(100%, #7D7D7D)); 
+background: -moz-linear-gradient(top, #3D3D3D 0%, #3D3D3D 55%, #7D7D7D 130%); 
+}
+
+#hashtags
+{
+
+-moz-border-radius: 15px;
+border-radius: 15px;
+background-color: #1F1F1F;
+color: #FFF;
+margin-right:5px;
+margin-left:5px;
+
+padding-right:5px;
+padding-left:10px;
+padding-top:10px;
+
+}
+#tweets
+{
+margin-top:-8px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+background-color: #1F1F1F;
+color: #FFF;
+margin-right:5px;
+margin-left:5px;
+padding-right:5px;
+padding-left:5px;
+}
+
+#atweet
+{
+
+overflow-x:auto;
+background-color:#3D3D3D;
+-moz-border-radius: 15px;
+border-radius: 15px;
+margin-right:5px;
+margin-left:5px;
+margin-bottom:8px;
+padding-right:5px;
+padding-left:10px;
+padding-top:5px;
+padding-bottom:5px;
+
+/* outer shadows  (note the rgba is red, green, blue, alpha) */
+-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.6); 
+-moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+
+/* rounded corners */
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px; 
+border-radius: 7px;
+
+/* gradients */
+/* gradients */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3D3D3D), 
+ color-stop(65%, #3D3D3D), color-stop(100%, #7D7D7D)); 
+background: -moz-linear-gradient(top, #3D3D3D 0%, #3D3D3D 55%, #7D7D7D 130%); 
+
+}
+#usertweet
+{
+padding-right:5px;
+padding-left:10px;
+padding-top:5px;
+padding-bottom:5px;
+color:#000;
+
+}
+
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain(maps.google.com),
+url-prefix(http://www.carloseriveros.com/indexme.php){
+#copyright
+{display:none !important;}
+}
+
+#copyright
+{display:none !important;}
+
+#by
+{
+color:#000;
+}
+
+.label {
+color: #FFF;
+
+
+}
+
+.user-form
+{
+ text-align: center; 
+}
+
+#mainform
+{
+display:inline-block;
+
+}
+
+#mainform2
+{
+display:inline-block;
+
+}
+
+input[type='radio']
+{
+no-repeat 0 0; z-index:2;
+ background:url(CSS/off.png);
+}
+
+input[type='radio']:checked
+{
+no-repeat 0 0; z-index:2;
+background:url(CSS/off.png);
+}
+
+
+#radio-buttons
+{
+font-size:larger;
+background-color:#1F1F1F;
+color: #FFF;
+display:inline-block;
+-moz-border-radius: 15px;
+border-radius: 15px;
+margin-right:5px;
+margin-left:5px;
+padding-right:5px;
+padding-left:5px;
+}
+
+#wrapper
+{
+
+margin: 0 auto;
+width: 1120px;
+}
+
+.text-box {
+
+border-radius:15px;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+
+}
+
+.submit-button
+{
+
+    position:relative;
+    //left:6px;
+    border:1px solid #454545;
+    background: #fff; /* Old browsers */
+    color:#000000;
+    cursor: pointer;
+ font-weight:bold;
+
+
+}
+input[name=Since], input[name=Limit]
+{
+width: 40px;
+}
+input[name=Location]
+{
+width: 120px;
+}
+
+#left-side
+{
+float: left; 
+color: #FFF;
+}
+
+.wrappercol2
+{
+float: right;
+}
+
+#map3d
+{
+
+float:left;
+ 
+}
+
+#center
+{
+
+
+}
+
